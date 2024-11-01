@@ -1,0 +1,38 @@
+.form-table.webhooks {
+    th,
+    td {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    tr:first-child {
+        th,
+        td {
+            padding-top: 20px;
+        }
+    }
+}
+
+.form-table.wbo-webhooks-token {
+    table-layout: fixed;
+    width: 55%;
+    td {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    th,
+    td {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    tr:first-child {
+        th,
+        td {
+            padding-top: 20px;
+        }
+    }
+}
+
+.message-access-key {
+    color: #a90101;
+    text-transform: uppercase;
+}

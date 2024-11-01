@@ -1,0 +1,219 @@
+.woo-moip-official {
+    #moip-payment-method-credit-card {
+        li {
+            #card-number {
+                display: block;
+            }
+        }
+        label {
+            color: #6d6d6d;
+        }
+        #card-expiry {
+            &::placeholder {
+                color: #A0A0A0;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+        #card-cvc {
+            &::placeholder {
+                color: #A0A0A0;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+        #card-holder {
+            &::placeholder {
+                color: #A0A0A0;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+        #cpf-holder {
+            &::placeholder {
+                color: #A0A0A0;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+        #birth-holder {
+            &::placeholder {
+                color: #A0A0A0;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+        }
+        #phone-holder {
+            &::placeholder {
+                color: #6d6d6d;
+                font-size: 17px;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .woocommerce-tabs {
+        text-align: inherit !important;
+        padding-top: 10px;
+        .tab {
+            min-width: 320px;
+            max-width: 100%;
+            padding: 0px;
+            margin: 0 auto;
+            float: inherit;
+            border-style: none;
+            label {
+                width: auto !important;
+            }
+        }
+        #tab-billet {
+            .tab-billet-container {
+                img {
+                    float: none;
+                    margin: 0 auto;
+                    cursor: default;
+                }
+                p {
+                    white-space: pre-wrap;
+                    cursor: default;
+                }
+                .wbo-discount-container {
+                    text-align: left;
+                    margin-bottom: 20px;
+                    img {
+                        width: 35px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 16px;
+                    }
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    #wbo-discount-amount {
+                        color: #0C497B;
+                        display: inline-block;
+                        font-weight: 600;
+                    }
+                }
+                @media only screen and (max-width: 480px) {
+                    .wbo-discount-container {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .tab-creditcard-container {
+            .wbo-discount-container {
+                text-align: left;
+                margin-bottom: 20px;
+                img {
+                    width: 30px;
+                    vertical-align: middle;
+                    margin-right: 16px;
+                    float: left !important;
+                }
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                .wbo-discount-container {
+                    text-align: center;
+                }
+            }
+        }
+        .moip-tab {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px;
+            font-weight: 600;
+            border: 1px solid transparent;
+        }
+        @media only screen and (max-width: 480px) {
+            .moip-tab {
+                padding: 12px;
+            }
+        }
+        label:hover {
+            color: #888;
+            cursor: pointer;
+        }
+        span.tablinks label {
+            color: #b7b5b5;
+            background: #f7f7f7;
+            border-bottom: 1px solid #b7b5b5;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px 0 0;
+            opacity: 1;
+        }
+        span.tablinks.active label {
+            color: #555;
+            border: 1px solid #ddd;
+            border-top: 3px solid #0C497B;
+            background: #f7f7f7;
+            border-bottom: 1px solid transparent;
+        }
+        #discount-price-text {
+            text-align: center;
+            color: #000;
+        }
+        #tab-billet .moip-tab-billet {
+            margin: 0;
+            text-align: center;
+            img {
+                max-height: 5em;
+            }
+        }
+        select#installments {
+            border: 1px solid #aaa;
+            height: 38px;
+            background: #f2f2f2;
+        }
+        .woocommerce .payment_box p {
+            padding-left: 0;
+        }
+    }
+}
+
+.payment_method_woo-moip-official {
+    img {
+        width: 100px;
+    }
+}
+
+.container-moip-discount {
+    width: 438px;
+    th {
+        padding: 0.7em 1.618em;
+        margin-bottom: 2.617924em;
+        background-color: #3d9cd2;
+        margin-left: 0;
+        border-radius: 2px;
+        color: #fff;
+        border-left: .6180469716em solid rgba(0, 0, 0, .15);
+    }
+}
+
+.moip-discount-thankyou {
+    .moip-woocommerce-message {
+        background-color: #3d9cd2;
+        p {
+            margin: 0;
+        }
+        .thank-you-description {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+}
+
+.wbo-billing-cpf {
+    display: block !important;
+}
+
+.wbo-billing-cnpj {
+    display: block !important;
+}

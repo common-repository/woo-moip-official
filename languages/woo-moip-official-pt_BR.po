@@ -1,0 +1,943 @@
+# Translation of Plugins - WooCommerce Wirecard Brazil Official - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - WooCommerce Wirecard Brazil Official - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-02 11:42-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - WooCommerce Wirecard Brazil Official - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: src/View/Custom_Gateways.php:74
+msgid "Update notifications only if the WooCommerce / Wirecard status is not working."
+msgstr "Atualize as notificações somente se o status WooCommerce / Wirecard não estiver funcionando."
+
+#: src/Controller/Custom_Gateways.php:431
+msgid "Allows credit card data to be sent encrypted, generating more security in your transactions.OBS: You can not change this field manually."
+msgstr "Permite que os dados do cartão de crédito sejam enviados criptografados, gerando mais segurança em suas transações. OBS: Você não pode alterar este campo manualmente."
+
+#: src/Controller/Custom_Gateways.php:272
+msgid "Discount Amount"
+msgstr "Valor do Desconto"
+
+#: src/Controller/Custom_Gateways.php:259
+msgid "Enter the name of the discount (Default name if blank: Wirecard Discount)."
+msgstr "Digite o nome do desconto (Nome padrão: Desconto do Wirecard)."
+
+#: src/Controller/Custom_Gateways.php:258
+msgid "Discount Name"
+msgstr "Nome do Desconto"
+
+#: src/Controller/Custom_Gateways.php:247
+msgid "Enabling the discount will apply to billet and credit card."
+msgstr "A ativação do desconto será aplicada no boleto bancário e no cartão de crédito."
+
+#: src/Controller/Custom_Gateways.php:245
+msgid "Enable Discount"
+msgstr "Habilitar Desconto"
+
+#: src/Controller/Custom_Gateways.php:243
+#: src/Controller/Custom_Gateways.php:262 src/View/Checkouts.php:174
+msgid "Wirecard Discount"
+msgstr "Desconto Wirecard"
+
+#: src/Controller/Orders.php:88
+msgid "Billet Link"
+msgstr "Link do Boleto"
+
+#: src/Controller/Orders.php:75 src/Controller/Orders.php:91
+msgid "Wirecard Order ID"
+msgstr "Pedido na Wirecard"
+
+#: src/Controller/Orders.php:73
+msgid "Installments"
+msgstr "Parcelas"
+
+#: src/Controller/Custom_Gateways.php:480
+msgid "Default text: The order will be confirmed only after confirmation of payment."
+msgstr "Texto padrão: O pedido será confirmado apenas após a confirmação do pagamento."
+
+#: src/Controller/Custom_Gateways.php:478
+msgid "Add description in billet option in transparent checkout. If leave blank will show the default text."
+msgstr "Adiciona descrição na opção do boleto no checkout transparente. Se deixar em branco mostrará o texto padrão."
+
+#: src/View/Checkouts.php:150
+msgid "%dx of %s (%s %s)"
+msgstr "%dx de %s (%s %s)"
+
+#: src/View/Checkouts.php:142
+msgid "with interest"
+msgstr "com juros"
+
+#: src/View/Checkouts.php:144
+msgid "without interest"
+msgstr "sem juros"
+
+#: src/View/Checkouts.php:109
+msgid "To print the billet click the button below."
+msgstr "Para imprimir o boleto clique no botão abaixo."
+
+#: src/View/Checkouts.php:57
+msgid "You just made a payment in %s with credit card %s."
+msgstr "Você acabou de fazer o pagamento em %s com o cartão de crédito %s."
+
+#: src/View/Checkouts.php:27
+msgid "Your request will be processed as soon as we receive confirmation of your billet payment."
+msgstr "Seu pedido será processado assim que recebermos a confirmação do pagamento do seu boleto."
+
+#: src/View/Checkouts.php:22
+msgid "Your request will be processed as soon as your credit card company confirms payment."
+msgstr "Seu pedido será processado assim que a operadora do seu cartão de crédito confirmar o pagamento."
+
+#: src/View/Checkouts.php:17
+msgid "Your order has been sent to Wirecard."
+msgstr "Seu pedido foi enviado para a Wirecard."
+
+#: src/Model/Proccess_Payment.php:166
+msgid "Wirecard: Payment under review."
+msgstr "Wirecard: Pagamento em revisão."
+
+#: templates/payment-methods/transparent-billet.php:30
+msgid "on the billet bank"
+msgstr ""
+
+#: templates/payment-methods/transparent-billet.php:34
+msgid "Discount"
+msgstr ""
+
+#: templates/payment-methods/credit-card.php:135
+msgid "Minimum installment R$"
+msgstr "Parcela mínima R$"
+
+#: templates/payment-methods/transparent-credit-card.php:84
+msgid "on the credit card"
+msgstr ""
+
+#: templates/payment-methods/transparent-credit-card.php:87
+msgid "in until"
+msgstr ""
+
+#: templates/payment-methods/transparent-credit-card.php:76
+msgid "Card Holder Name"
+msgstr "Nome do portador"
+
+#: templates/payment-methods/transparent-credit-card.php:76
+msgid "as recorded on the card"
+msgstr "como gravado no cartão"
+
+#: src/Controller/Custom_Gateways.php:546
+msgid "Show Option"
+msgstr "Mostrar Opção"
+
+#: src/Controller/Custom_Gateways.php:543
+msgid "Show option to save the card number in transparent checkout."
+msgstr "Mostrar opção para salvar o número do cartão no checkout transparente."
+
+#: src/Controller/Custom_Gateways.php:542
+msgid "Save Credit Card"
+msgstr "Salvar Cartão de Crédito"
+
+#: src/Controller/Custom_Gateways.php:477
+msgid "Description Billet Checkout"
+msgstr "Descrição do Boleto"
+
+#: src/Controller/Custom_Gateways.php:219
+msgid "Credit Card Settings"
+msgstr "Configurações do Cartão de Crédito"
+
+#: src/Controller/Orders.php:62
+msgid "Wirecard Brasil Oficial"
+msgstr "Wirecard Brasil Oficial"
+
+#: src/View/Custom_Gateways.php:72
+msgid "Update Notifications"
+msgstr "Atualizar Notificações"
+
+#: src/Model/Proccess_Payment.php:190
+msgid "Wirecard: Payment refunded."
+msgstr "Wirecard: Pagamento reembolsado."
+
+#: src/Model/Proccess_Payment.php:154
+msgid "Wirecard: Payment status: %s"
+msgstr "Wirecard: Status do pagamento: %s"
+
+#: src/Model/Proccess_Payment.php:72 src/Model/Proccess_Payment.php:134
+msgid "Wirecard: Payment authorized."
+msgstr "Wirecard: Pagamento autorizado."
+
+#: src/Model/Proccess_Payment.php:123 src/Model/Proccess_Payment.php:181
+msgid "Wirecard: Order cancelled."
+msgstr "Wirecard: Pedido cancelado."
+
+#: src/Model/Proccess_Payment.php:87 src/Model/Proccess_Payment.php:116
+msgid "Wirecard: Order status: %s"
+msgstr "Wirecard: Status do pedido: %s"
+
+#: src/Model/Proccess_Payment.php:101
+msgid "Wirecard: Order reverted."
+msgstr "Wirecard: Pedido revertido."
+
+#: src/Model/Order.php:73
+msgid "Wirecard: Awaiting payment confirmation."
+msgstr "Wirecard: Aguardando confirmação do pagamento."
+
+#. Plugin Name of the plugin
+#: src/Core.php:176 woo-moip-official.php:30
+msgid "WooCommerce Wirecard Brazil Official"
+msgstr "WooCommerce Wirecard Brasil Oficial"
+
+#: src/Controller/Orders.php:39
+msgid "Billet Wirecard"
+msgstr "Wirecard Boleto"
+
+#: src/Controller/Custom_Gateways.php:414
+msgid "Wirecard Checkout"
+msgstr "Checkout Wirecard"
+
+#: src/Controller/Custom_Gateways.php:370
+msgid "Pay with Wirecard"
+msgstr "Pagar com Wirecard"
+
+#: src/Controller/Custom_Gateways.php:362
+msgid "Wirecard"
+msgstr "Wirecard"
+
+#: src/Controller/Custom_Gateways.php:45
+msgid "Payment Gateway Wirecard"
+msgstr "Gateway de pagamento da Wirecard"
+
+#: src/Controller/Custom_Gateways.php:44
+msgid "Wirecard Brazil Official"
+msgstr "Wirecard Brasil Oficial"
+
+#: templates/payment-methods/transparent-credit-card.php:147
+msgid "---"
+msgstr "---"
+
+#: templates/payment-methods/transparent-credit-card.php:100
+#: templates/payment-methods/credit-card.php:76
+msgid "MM / YYYY"
+msgstr "MM / AAAA"
+
+#: src/View/Custom_Gateways.php:69
+msgid "Status"
+msgstr "Status"
+
+#: src/Controller/Orders.php:71 src/Controller/Orders.php:86
+msgid "Payment by"
+msgstr "Pagamento por"
+
+#: src/Controller/Custom_Gateways.php:851
+msgid "System Status &gt; Logs"
+msgstr "Status do Sistema &gt; Logs"
+
+#: src/Controller/Custom_Gateways.php:310
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: src/Controller/Custom_Gateways.php:301
+msgid "To View the logs click the link: %s"
+msgstr "Clique no link para visualizar os logs: %s"
+
+#: templates/payment-methods/transparent-credit-card.php:27
+msgid "minimum installment R$"
+msgstr "parcela mínima R$"
+
+#: src/View/Checkouts.php:199
+msgid "The order will be confirmed only after confirmation of payment."
+msgstr "O pedido será confirmado apenas após a confirmação do pagamento."
+
+#: src/Controller/Custom_Gateways.php:571
+msgid "Amount of the minimum installment to be applied to the card."
+msgstr "Valor mínimo que uma parcela poderá ter."
+
+#: src/Controller/Custom_Gateways.php:569
+msgid "Minimum installment"
+msgstr "Valor mínimo para parcelas"
+
+#: src/Controller/Custom_Gateways.php:273
+msgid "Enter the discount amount for the bank slip (Example: 4,99)."
+msgstr "Digite o valor do desconto (Exemplo: 4,99)."
+
+#: src/Controller/Custom_Gateways.php:412
+msgid "Default Checkout"
+msgstr "Checkout Padrão"
+
+#: src/Controller/Custom_Gateways.php:235
+msgid "Discount Setting"
+msgstr "Configurações de Desconto"
+
+#: src/Controller/Custom_Gateways.php:262
+msgid "Enable Billet Discount"
+msgstr "Habilitar desconto no boleto"
+
+#: src/Controller/Custom_Gateways.php:264
+msgid "Enabling the discount will apply to billet."
+msgstr "Habilitando o desconto será aplicando somente no boleto."
+
+#: src/Controller/Custom_Gateways.php:50
+msgid "Proceed to payment"
+msgstr "Realizar pagamento"
+
+#: src/Controller/Custom_Gateways.php:329
+msgid "Notifications"
+msgstr "Notificações"
+
+#: src/Controller/Custom_Gateways.php:296
+msgid "Logs"
+msgstr "Logs"
+
+#: src/Controller/Custom_Gateways.php:288
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: src/Controller/Custom_Gateways.php:314
+msgid "Person Type"
+msgstr "Tipo de Pessoa"
+
+#: src/Controller/Custom_Gateways.php:315
+msgid "Choose the type of person to appear on the checkout page."
+msgstr "Escolha o tipo de pessoa para aparecer na página de checkout."
+
+#. Author URI of the plugin
+msgid "https://apiki.com"
+msgstr "https://apiki.com"
+
+#. Author of the plugin
+msgid "Apiki WordPress"
+msgstr "Apiki WordPress"
+
+#. Description of the plugin
+msgid "Official Wirecard Brazil plugin built with the best development practices. Based on V2, new REST Moip’s API, providing more speed, safety and sales conversion."
+msgstr "Plugin Wirecard Brasil Oficial, construído com as melhores práticas de desenvolvimento. Com base na V2, a nova API REST da Wirecard proporciona mais velocidade, segurança e conversão de vendas."
+
+#. Plugin URI of the plugin
+msgid "https://apiki.com/moip"
+msgstr "https://apiki.com/moip"
+
+#: woo-moip-official.php:54
+msgid "WooCoomerce plugin is required."
+msgstr "Plugin WooCoomerce é requerido."
+
+#: woo-moip-official.php:43
+msgid "Your PHP version is not supported. Required >= 5.6."
+msgstr "Sua versão do PHP não é suportada. Requerido >= 5.6."
+
+#: templates/thank-you-page.php:26
+msgid "Your order has been processed successfully, click the link below to make the payment."
+msgstr "Seu pedido foi processado com sucesso, clique no link abaixo para efetuar o pagamento."
+
+#: templates/payment-methods/transparent-credit-card.php:167
+#: templates/payment-methods/credit-card.php:149
+msgid "Save this card for future purchases"
+msgstr "Guarde este cartão para compras futuras"
+
+#: templates/payment-methods/transparent-credit-card.php:150
+#: templates/payment-methods/credit-card.php:124
+msgid "At sight"
+msgstr "À vista"
+
+#: templates/payment-methods/transparent-credit-card.php:20
+#: templates/payment-methods/transparent-credit-card.php:26
+#: templates/payment-methods/credit-card.php:114
+msgid "Installments quantity"
+msgstr "Quantidade de parcelas"
+
+#: templates/payment-methods/transparent-credit-card.php:129
+#: templates/payment-methods/credit-card.php:105
+msgid "Use old credit card"
+msgstr "Usar cartão de crédito antigo"
+
+#: templates/payment-methods/transparent-credit-card.php:107
+#: templates/payment-methods/credit-card.php:83
+msgid "Card code"
+msgstr "Código do cartão"
+
+#: templates/payment-methods/transparent-credit-card.php:92
+#: templates/payment-methods/credit-card.php:68
+msgid "Expiry (MM/YYYY)"
+msgstr "Validade (MM/AAAA)"
+
+#: templates/payment-methods/transparent-credit-card.php:79
+#: templates/payment-methods/credit-card.php:56
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: templates/payment-methods/transparent-credit-card.php:57
+#: templates/payment-methods/credit-card.php:45
+msgid "Use new credit card"
+msgstr "Usar novo cartão de crédito"
+
+#: templates/payment-methods/transparent-credit-card.php:41
+#: templates/payment-methods/credit-card.php:29
+msgid "Registered credit card"
+msgstr "Cartão de crédito cadastrado"
+
+#: src/Controller/Orders.php:87
+#: templates/payment-methods/transparent-billet.php:24
+#: templates/payment-methods/billet.php:22
+msgid "Bank Billet"
+msgstr "Boleto Bancário"
+
+#: templates/checkout-default.php:77
+msgid "Pay order"
+msgstr "Pagar pedido"
+
+#: templates/checkout-default.php:73
+msgid "Cancel order &amp; restore cart"
+msgstr "Cancelar pedido e voltar para o carrinho"
+
+#: templates/checkout-moip.php:72
+msgid "Cancel order e restore cart"
+msgstr "Cancelar pedido e restaurar carrinho"
+
+#: templates/checkout-default.php:45 templates/checkout-moip.php:59
+msgid "Pay with billet banking"
+msgstr "Pagar com boleto bancário"
+
+#: templates/checkout-moip.php:46
+msgid "Pay with banking debit (Itaú)"
+msgstr "Pagar via débito em conta (Itaú)"
+
+#: templates/checkout-default.php:35 templates/checkout-moip.php:33
+msgid "Pay with credit card"
+msgstr "Pagar com cartão de crédito"
+
+#: src/View/Moip_Connects.php:83
+msgid "Submit"
+msgstr "Enviar"
+
+#: src/View/Moip_Connects.php:81
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: src/View/Moip_Connects.php:59
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: src/View/Moip_Connects.php:47
+msgid "Production"
+msgstr "Produção"
+
+#: src/View/Moip_Connects.php:24 src/View/Moip_Connects.php:73
+msgid "Close"
+msgstr "Fechar"
+
+#: src/View/Checkouts.php:106
+msgid "Copy barcode"
+msgstr "Copiar linha digitável"
+
+#: src/View/Checkouts.php:105
+msgid "Copied!"
+msgstr "Copiado!"
+
+#: src/View/Checkouts.php:93
+msgid "Line Code: "
+msgstr "Linha digitável: "
+
+#: src/Controller/Orders.php:90 src/View/Checkouts.php:116
+#: templates/thank-you-page.php:28 templates/orders.php:22
+msgid "Print"
+msgstr "Imprimir"
+
+#: templates/orders.php:18
+msgid "If you have not yet received the billet, please click the button below to print."
+msgstr "Se você ainda não recebeu o boleto, por favor clique no botão abaixo para imprimir."
+
+#: src/View/Checkouts.php:78 templates/thank-you-page.php:28
+msgid "Pay now"
+msgstr "Pagar agora"
+
+#: src/View/Checkouts.php:73
+msgid "If you have not made ​​the payment, please click the button below to pay."
+msgstr "Se você ainda não efetuou o pagamento, por favor clique no botão abaixo para pagar."
+
+#: src/View/Checkouts.php:32
+msgid "If you have any questions regarding the transaction, please contact us or the Wirecard."
+msgstr "Caso tenha alguma dúvida referente à transação, entre em contato conosco."
+
+#: src/Model/Proccess_Payment.php:30
+msgid "Invalid order id"
+msgstr "ID do pedido inválido"
+
+#: src/Model/Moip_SDK.php:308
+msgid "An error occurred while processing. Click to try again."
+msgstr "Um erro ocorreu durante o processamento. Tente novamente."
+
+#: src/Model/Moip_SDK.php:228
+msgid "Payment method not found!"
+msgstr "Método de pagamento não encontrado!"
+
+#: src/Helper/Utils.php:538
+msgid "Reverted"
+msgstr "Revertido"
+
+#: src/Helper/Utils.php:535
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: src/Helper/Utils.php:532
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: src/Helper/Utils.php:529
+msgid "Paid"
+msgstr "Pago"
+
+#: src/Helper/Utils.php:526
+msgid "In analysis"
+msgstr "Em análise"
+
+#: src/Helper/Utils.php:523
+msgid "Waiting"
+msgstr "Aguardando"
+
+#: src/Helper/Utils.php:520
+msgid "Created"
+msgstr "Criado"
+
+#: src/Model/Checkout.php:87
+msgid "Wirecard: Invalid credit card number."
+msgstr "Wirecard: Número do cartão de crédito inválido."
+
+#: src/Model/Checkout.php:91
+msgid "Wirecard: Card Holder Empty"
+msgstr "Wirecard: Nome do portador é um campo obrigatório."
+
+#: src/Model/Checkout.php:95
+msgid "Wirecard: Card Number Empty"
+msgstr "Wirecard: Número do cartão de crédito é um campo obrigatório."
+
+#: src/Model/Checkout.php:99
+msgid "Wirecard: Card Expiry Empty"
+msgstr "Wirecard: Validade do cartão de crédito é um campo obrigatório."
+
+#: src/Model/Checkout.php:103
+msgid "Wirecard: Card CVC Empty"
+msgstr "Wirecard: Código do cartão de crédito é um campo obrigatório."
+
+#: src/Model/Checkout.php:107
+msgid "Wirecard: Card Installments Empty"
+msgstr "Wirecard: Quantidade de parcelas é um campo obrigatório."
+
+#: src/Model/Custom_Gateway.php:48
+msgid "Individuals and Legal Person"
+msgstr "Pessoal Física e Pessoal Jurídica"
+
+#: src/Model/Custom_Gateway.php:49
+msgid "Individual only"
+msgstr "Apenas Pessoa Física"
+
+#: src/Model/Custom_Gateway.php:50
+msgid "Legal Person only"
+msgstr "Apenas Pessoa Jurídica"
+
+#: src/Core.php:140
+msgid "Invalid credit card. <p>Complete all required fields.</p>"
+msgstr "Cartão de crédito inválido. <p>Preencha todos os campos obrigatórios.</p>"
+
+#: src/Core.php:139
+msgid "Invalid credit card. <p>Check all fields e try again.</p>"
+msgstr "Cartão de crédito inválido. <p>Verifique os campos e tente novamente.</p>"
+
+#: src/Core.php:138
+msgid "An error occurred while processing. <p>Try again.</p>"
+msgstr "Ocorreu um erro durante o processamento. <p>Tente novamente.</p>"
+
+#: src/Core.php:137
+msgid "Your transaction was processed successfully."
+msgstr "Sua transação foi processada com sucesso."
+
+#: src/Core.php:136
+msgid "The transaction is being processed..."
+msgstr "A transação está sendo processada..."
+
+#: src/Core.php:135
+msgid "Waiting..."
+msgstr "Aguarde..."
+
+#: src/Controller/Webhooks.php:261
+msgid "Events"
+msgstr "Eventos"
+
+#: src/Controller/Webhooks.php:260
+msgid "Webhook notification successfully sent."
+msgstr "Notificação enviada com sucesso."
+
+#: src/Controller/Webhooks.php:223
+msgid "No notifications to send."
+msgstr "Nenhuma notificação enviada."
+
+#: src/Controller/Webhooks.php:215
+msgid "This invalid resource id."
+msgstr "Inválido resource id."
+
+#: src/Controller/Webhooks.php:196
+msgid "This resource id field is required."
+msgstr "O campo resource id é requerido."
+
+#: src/Controller/Webhooks.php:185
+msgid "You are not allowed to do this."
+msgstr "Você não tem permissão para fazer isso."
+
+#: src/Controller/Webhooks.php:146
+msgid "Enable payment in the field below."
+msgstr "Habilite o pagamento no campo abaixo."
+
+#: src/Controller/Webhooks.php:129
+msgid "Authentication error."
+msgstr "Erro de autenticação."
+
+#: src/Controller/Webhooks.php:65
+msgid "Invalid webhook."
+msgstr "Webhook inválido."
+
+#: src/Controller/Moip_Connects.php:71
+msgid "There was an error processing the request."
+msgstr "Ocorreu um erro ao processar o pedido."
+
+#: src/Controller/Moip_Connects.php:46
+msgid "Mode not defined!"
+msgstr "Modo não definido!"
+
+#: src/Controller/Moip_Connects.php:40
+msgid "You are not allowed to do this!"
+msgstr "Você não tem permissão para fazer isso!"
+
+#: src/Controller/Custom_Gateways.php:833
+msgid "New authorize"
+msgstr "Nova autorização"
+
+#: src/Controller/Custom_Gateways.php:829
+msgid "Authorize App"
+msgstr "Autorizar aplicativo"
+
+#: src/Controller/Custom_Gateways.php:729
+msgid "Go to setup"
+msgstr "Ir para a configuração"
+
+#: src/Controller/Custom_Gateways.php:727
+msgid "You need to set up your Wirecard data to use the payment method."
+msgstr "Você precisa configurar seus dados Wirecard para usar o método de pagamento."
+
+#: src/Controller/Custom_Gateways.php:710
+msgid "Not informed public key."
+msgstr "Chave pública não informada."
+
+#: src/Controller/Custom_Gateways.php:706
+msgid "Invoice name is required."
+msgstr "O nome da fatura é requerido."
+
+#: src/Controller/Custom_Gateways.php:702
+msgid "Application not authorized."
+msgstr "Aplicação não autorizada."
+
+#: src/Controller/Custom_Gateways.php:602
+msgid "Interest to be applied to the installment."
+msgstr "Juros que serão aplicados na parcela."
+
+#: src/Controller/Custom_Gateways.php:600
+msgid "Interest"
+msgstr "Juros"
+
+#: src/Controller/Custom_Gateways.php:595
+msgid "Define interest for each installment."
+msgstr "Caso opte por repassar o juros de parcelamento para o cliente, você poderá configurar um valor para cada parcela."
+
+#: src/Controller/Custom_Gateways.php:593
+msgid "Interest per installment"
+msgstr "Juros por parcela"
+
+#: src/Controller/Custom_Gateways.php:583
+msgid "Force a maximum number of installments for payment."
+msgstr "Permite configurar o número máximo de parcelas que um pagamento poderá ter."
+
+#: src/Controller/Custom_Gateways.php:581
+msgid "Maximum installments number"
+msgstr "Número máximo de parcelas"
+
+#: src/Controller/Custom_Gateways.php:561
+msgid "Enable Installments settings"
+msgstr "Ativar as configurações de parcelamento"
+
+#: src/Controller/Custom_Gateways.php:559
+msgid "Installments settings"
+msgstr "Configurações de parcelamento"
+
+#: src/Controller/Custom_Gateways.php:533
+msgid "URL of the logo image to be shown on the billet."
+msgstr "URL da imagem que será mostrada nos boletos."
+
+#: src/Controller/Custom_Gateways.php:531
+msgid "Custom Logo URL"
+msgstr "Logo da sua loja no boleto"
+
+#: src/Controller/Custom_Gateways.php:520
+msgid "Third line instruction for the billet."
+msgstr "Instruções específicas para o comprador."
+
+#: src/Controller/Custom_Gateways.php:518
+msgid "Instruction Line 3"
+msgstr "Terceira linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:514
+msgid "Second line instruction for the billet."
+msgstr "Instruções específicas para o comprador."
+
+#: src/Controller/Custom_Gateways.php:512
+msgid "Instruction Line 2"
+msgstr "Segunda linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:508
+msgid "First line instruction for the billet."
+msgstr "Instruções específicas para o comprador."
+
+#: src/Controller/Custom_Gateways.php:506
+msgid "Instruction Line 1"
+msgstr "Primeira linha de instrução"
+
+#: src/Controller/Custom_Gateways.php:492
+msgid "Days of expiry of the billet after printed."
+msgstr "Quantidade de dias para expiração do boleto após a impressão."
+
+#: src/Controller/Custom_Gateways.php:491
+msgid "Number of Days"
+msgstr "Validade do boleto"
+
+#: src/Controller/Custom_Gateways.php:466
+msgid "Enable Banking Debit"
+msgstr "Ativar Débito em Conta"
+
+#: src/Controller/Custom_Gateways.php:464
+msgid "Banking Debit"
+msgstr "Débito em Conta"
+
+#: src/Controller/Custom_Gateways.php:453
+msgid "Enable Credit Card"
+msgstr "Ativar Cartão de Crédito"
+
+#: src/Controller/Orders.php:52 src/Controller/Orders.php:72
+#: src/Controller/Custom_Gateways.php:451 templates/checkout-transparent.php:56
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: src/Controller/Custom_Gateways.php:440
+msgid "Enable Billet Banking"
+msgstr "Ativar Boleto Bancário"
+
+#: src/Controller/Custom_Gateways.php:438 templates/checkout-transparent.php:64
+msgid "Billet Banking"
+msgstr "Boleto Bancário"
+
+#: src/Controller/Custom_Gateways.php:423
+msgid "Public Key"
+msgstr "Chave pública"
+
+#: src/Controller/Custom_Gateways.php:413
+msgid "Transparent Checkout"
+msgstr "Checkout Transparente"
+
+#: src/Controller/Custom_Gateways.php:404
+msgid "Payment Type"
+msgstr "Tipo de pagamento"
+
+#: src/Controller/Custom_Gateways.php:396
+msgid "Enter a prefix for your invoice numbers. If you use your Wirecard account for multiple stores, make sure this prefix is unique because Wirecard will not allow orders with the same invoice number."
+msgstr "Para melhor gestão dos pedidos na conta Wirecard, especifique um prefixo único para a sua loja. Caso você possua mais de uma loja, será possível identificar os pedidos de uma forma mais fácil."
+
+#: src/Controller/Custom_Gateways.php:393
+msgid "Invoice prefix"
+msgstr "Prefixo no extrato Wirecard"
+
+#: src/Controller/Custom_Gateways.php:385
+#: src/Controller/Custom_Gateways.php:429
+msgid "This field is required."
+msgstr "Este campo é requerido."
+
+#: src/Controller/Custom_Gateways.php:380
+msgid "It allows the shopkeeper to send a text of up to 13 characters that will be printed on the bearer's invoice, next to the shop identification, respecting the length of the flags."
+msgstr "Identificação da compra na fatura do comprador. Até 13 caracteres."
+
+#: src/Controller/Custom_Gateways.php:379
+msgid "Maximum of 13 characters"
+msgstr "Maxímo de 13 caracteres"
+
+#: src/Controller/Custom_Gateways.php:377
+msgid "Invoice name"
+msgstr "Nome na fatura"
+
+#: src/Controller/Custom_Gateways.php:369
+msgid "Description"
+msgstr "Descrição"
+
+#: src/Controller/Custom_Gateways.php:360
+msgid "This the title which the user sees during checkout."
+msgstr "Nome da forma de pagamento que o usuário verá durante o checkout."
+
+#: src/Controller/Custom_Gateways.php:359
+msgid "Title"
+msgstr "Título"
+
+#: src/Controller/Custom_Gateways.php:351
+msgid "Enable payment"
+msgstr "Habilitar pagamento"
+
+#: src/Controller/Custom_Gateways.php:298
+#: src/Controller/Custom_Gateways.php:349
+msgid "Enable"
+msgstr "Habilitar"
+
+#: src/Controller/Custom_Gateways.php:227
+msgid "Billet Settings"
+msgstr "Configurações do Boleto"
+
+#: src/Controller/Custom_Gateways.php:237
+msgid "Send Billet to Email"
+msgstr "Enviar Boleto para Email"
+
+#: src/Controller/Custom_Gateways.php:239
+msgid "Enable billet sending for email"
+msgstr "Habilitar envio do boleto para o email"
+
+#: src/Controller/Custom_Gateways.php:241
+msgid "Enabling the billet link will be sent to the buyer email."
+msgstr "Habilitando o envio do link do boleto para o email do comprador."
+
+#: src/Controller/Custom_Gateways.php:211 src/Controller/Settings.php:32
+msgid "Settings"
+msgstr "Configurações"
+
+#: src/Controller/Custom_Gateways.php:203
+msgid "Payment settings"
+msgstr "Configurações de Pagamento"
+
+#: src/Controller/Custom_Gateways.php:184
+msgid "Authorized"
+msgstr "Autorizado"
+
+#: src/Controller/Custom_Gateways.php:178
+msgid "To make your sales, you must authorize this application on Wirecard."
+msgstr "Para fazer suas vendas, você deve autorizar este aplicativo na Wirecard."
+
+#: src/Controller/Custom_Gateways.php:177
+msgid "Not authorized"
+msgstr "Não autorizado"
+
+#: src/Controller/Custom_Gateways.php:168
+msgid "APP authorization"
+msgstr "Autorizado"
+
+#: src/Controller/Checkouts.php:335
+msgid "is not valid"
+msgstr "é inválido"
+
+#: src/Controller/Checkouts.php:434
+msgid "Hi "
+msgstr "Olá "
+
+#: src/Controller/Checkouts.php:436
+msgid " all right?"
+msgstr " tudo bem?"
+
+#: src/Controller/Checkouts.php:437
+msgid "To view your billet, just click on the button below:"
+msgstr "Para visualizar seu boleto, basta clicar no botão abaixo:"
+
+#: src/Controller/Checkouts.php:439
+msgid "View billet"
+msgstr "Visualizar Boleto"
+
+#: src/Controller/Checkouts.php:440
+msgid "Attention: Do not make payment of expired billets, in this case, a new purchase must be made!"
+msgstr "Atenção: Não efetue pagamento de boletos vencidos, neste caso, uma nova compra deverá ser realizada!"
+
+#: src/Controller/Checkouts.php:441
+msgid "If you have any questions or problems, please contact us."
+msgstr "Caso tenha qualquer dúvida ou problema, entre em contato conosco."
+
+#: src/Controller/Checkouts.php:446 src/Controller/Checkouts.php:449
+msgid "Wirecard Billet"
+msgstr "Wirecard Boleto Bancário"
+
+#: src/Controller/Checkouts.php:301 src/Controller/Checkouts.php:325
+msgid "is a required field"
+msgstr "é um campo obrigatório"
+
+#: src/Controller/Checkouts.php:275
+msgctxt "placeholder"
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: src/Controller/Checkouts.php:274
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: src/Controller/Checkouts.php:266
+msgctxt "placeholder"
+msgid "Number"
+msgstr "Número"
+
+#: src/Controller/Checkouts.php:265
+msgid "Number"
+msgstr "Número"
+
+#: src/Controller/Checkouts.php:257
+msgctxt "placeholder"
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: src/Controller/Checkouts.php:256
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: src/Controller/Checkouts.php:298
+msgctxt "placeholder"
+msgid "Company Name"
+msgstr "Nome da empresa"
+
+#: src/Controller/Checkouts.php:248
+msgctxt "placeholder"
+msgid "CPF"
+msgstr "CPF"
+
+#: src/Controller/Checkouts.php:247
+msgid "CPF"
+msgstr "CPF"
+
+#: src/Controller/Checkouts.php:241
+msgid "Legal Person"
+msgstr "Pessoa Jurídica"
+
+#: src/Controller/Checkouts.php:240
+msgid "Individuals"
+msgstr "Pessoa Física"
+
+#: src/Controller/Checkouts.php:239
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+#: src/Controller/Checkouts.php:235 src/Controller/Checkouts.php:300
+msgid "Person type"
+msgstr "Tipo de Pessoa"
+
+#: src/Controller/Checkouts.php:99 src/Controller/Checkouts.php:177
+msgid "Could not create order. Try again."
+msgstr "Não foi possível criar o pedido. Tente novamente."
+
+#: src/Controller/Checkouts.php:89 src/Controller/Checkouts.php:163
+msgid "Empty fields"
+msgstr "Campos vazios"
+
+#: src/Controller/Checkouts.php:75 src/Controller/Checkouts.php:149
+msgid "Invalid order"
+msgstr "Pedido inválido"
+
+#: src/Controller/Checkouts.php:49
+msgid "Invalid nonce"
+msgstr "Nonce inválido"
